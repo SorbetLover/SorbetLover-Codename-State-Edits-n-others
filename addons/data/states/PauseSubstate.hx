@@ -11,7 +11,7 @@ function update() {
         if (menuItems[curSelected] == "Charter") {
 		    FlxG.switchState(new Charter(PlayState.instance.SONG.meta.name, PlayState.instance.difficulty, false));
         }
-        if (menuItems[curSelected] == "Skip Song") {
+        if (menuItems[curSelected] == "Open Console") {
     		NativeAPI.allocConsole();
 
 		}
